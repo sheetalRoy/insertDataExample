@@ -1,0 +1,34 @@
+<form id="courseForm" role="form" method="POST" action="connect.php">
+<input type="hidden" name="_token" value="">
+    <div class="form-group">
+    <!-- Course -->
+        <label class="control-label">Course</label>
+    <div>
+        <input type="text" id="course" name="course" class="textbox">
+                        	
+    </div>
+    </div>
+	<div class="form-group">
+    <!-- Course code -->
+        <label class="control-label">Course code</label>
+        <div>
+            <input type="text" id="code" name="code" class="textbox">
+                        	
+        </div>
+    </div>
+                    <div class="form-group">
+                    	<!-- Branch -->
+                        <label class="control-label">Branch</label>
+                        <div>
+                            <input type="text" id="batch" name="batch" class="textbox">
+                        	
+                        </div>
+                    </div>
+                    
+                     <div class="control-group">
+      <!-- Button -->
+      <div class="controls">
+        <button class="btn" type="submit" onclick="fnSaveCourse()">Save</button>
+      </div>
+    </div>
+</form>
